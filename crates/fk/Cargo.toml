@@ -6,7 +6,7 @@ rust-version.workspace = true
 license.workspace = true
 authors.workspace = true
 repository.workspace = true
-description = "Terminal Overdrive: generates trace corpus for complex Rust implementations by agents. Experiments with agentic swarm orchestration in SDLC contexts."
+description = "Fake Kernel: deterministic syscall simulation, mock kernel interfaces, and Landlock/seccomp test doubles."
 
 [[bin]]
 name = "fk"

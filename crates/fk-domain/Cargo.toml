@@ -6,7 +6,7 @@ rust-version.workspace = true
 license.workspace = true
 authors.workspace = true
 repository.workspace = true
-description = "fk (Terminal Overdrive Trace Corpus Generator) - Zero-I/O domain types and algebraic state models."
+description = "fk-domain (Fake Kernel) - Zero-I/O domain types and algebraic state models for deterministic syscall simulation."
 
 [lints]
 workspace = true
