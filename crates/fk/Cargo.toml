@@ -1,0 +1,24 @@
+[package]
+name = "fk"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+description = "Terminal Overdrive: generates trace corpus for complex Rust implementations by agents. Experiments with agentic swarm orchestration in SDLC contexts."
+
+[[bin]]
+name = "fk"
+path = "src/main.rs"
+
+[lints]
+workspace = true
+
+[dependencies]
+fk-domain = { path = "../fk-domain" }
+anyhow.workspace = true
+thiserror.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tracing.workspace = true
